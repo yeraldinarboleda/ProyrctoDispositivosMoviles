@@ -14,7 +14,7 @@ Gestión completa de tareas: crear, listar, editar y eliminar
 
 Comunicación con el backend por medio de Retrofit y JSON
 
-✔ Backend REST (Node.js + Express):
+Backend REST (Node.js + Express):
 
 API REST con autenticación mediante token
 
@@ -24,7 +24,7 @@ Módulo de sesiones
 
 Validación de datos
 
-✔ Base de datos MySQL:
+ Base de datos MySQL:
 
 Tabla usuarios
 
@@ -34,7 +34,7 @@ Tabla sesiones (manejo de tokens)
 
 La conexión se realiza mediante una URL pública temporal creada con ngrok o localtunnel.
 
- ##2. Arquitectura del Sistema
+ ## 2. Arquitectura del Sistema
 Android (Java + Retrofit)
         ↓ REST JSON
 Node.js (Express + JWT-like tokens)
@@ -144,7 +144,7 @@ POST /api/items para crear
 
 PUT /api/items/:id para editar
 
-##7. Conexión con el Backend
+## 7. Conexión con el Backend
 
 Ejecutar:
 
@@ -161,7 +161,7 @@ Esta URL se asigna en Retrofit:
 public static final String BASE_URL = "https://xxxxx.ngrok.io/api/";
 
 ## 8. Instalación
-🖥 Backend
+ Backend
 
 Clonar repositorio
 
@@ -205,4 +205,5 @@ Respuesta:
 ## 10. Video demostrativo
 
 https://drive.google.com/file/d/1xr-kaWHIlmPyKs3mUaoiMV9LXFcvZuwa/view?usp=sharing
+
 
